@@ -107,3 +107,8 @@ class Contact{
     }
  
 }
+
+let addressBook = new Array();
+addressBook.push(new Contact("Murari", "Kumar", "Nauranga", "Patna", "Bihar", "123 123",
+        "91 8709628464", "abc@bl.com"));
+        addressBook.forEach((contact) => console.log(contact.toString()));
